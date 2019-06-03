@@ -1,0 +1,327 @@
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\qhm\0.jpg :7874
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\qhm\2.jpg :9813
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\qhm\3.jpg :10491
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\qhm\4.jpg :10704
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\qhm\5.jpg :8714
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\qhm\6.jpg :8795
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\qhm\7.jpg :10357
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\qhm\8.jpg :11734
+img0---img1 :167
+img1---img0 :185
+img0---img2 :31
+img2---img0 :40
+img0---img3 :18
+img3---img0 :23
+img0---img4 :11
+img4---img0 :12
+img0---img5 :10
+img5---img0 :12
+img0---img6 :9
+img6---img0 :10
+img0---img7 :7
+img7---img0 :10
+img1---img2 :548
+img2---img1 :571
+img1---img3 :132
+img3---img1 :135
+img1---img4 :28
+img4---img1 :31
+img1---img5 :24
+img5---img1 :22
+img1---img6 :20
+img6---img1 :15
+img1---img7 :12
+img7---img1 :12
+img2---img3 :478
+img3---img2 :513
+img2---img4 :81
+img4---img2 :82
+img2---img5 :47
+img5---img2 :42
+img2---img6 :21
+img6---img2 :19
+img2---img7 :11
+img7---img2 :11
+img3---img4 :151
+img4---img3 :145
+img3---img5 :62
+img5---img3 :55
+img3---img6 :20
+img6---img3 :22
+img3---img7 :14
+img7---img3 :10
+img4---img5 :529
+img5---img4 :535
+img4---img6 :112
+img6---img4 :125
+img4---img7 :41
+img7---img4 :38
+img5---img6 :450
+img6---img5 :440
+img5---img7 :56
+img7---img5 :52
+img6---img7 :261
+img7---img6 :273
+max match is :2---1:571
+add image3 to match 2
+match size is 478
+add image0 to match 1
+match size is 185
+add image4 to match 3
+match size is 151
+add image5 to match 4
+match size is 529
+add image6 to match 5
+match size is 450
+add image7 to match 6
+match size is 261
+before init BA 3D size is:532
+before solve BA
+Bundle Adjustment statistics (approximated RMSE):
+ #views: 2
+ #residuals: 2118
+ Initial RMSE: 0.141565
+ Final RMSE: 0.103636
+ Time (s): 19.9779
+
+[1704.3693002344;
+ 1672.049272434231;
+ 1090.153296662474;
+ 727.9181810599795]
+[1704.3693002344, 0, 1090.153296662474;
+ 0, 1672.049272434231, 727.9181810599795;
+ 0, 0, 1]
+0 sees 78 points
+3 sees 255 points
+4 sees 42 points
+5 sees 31 points
+6 sees 16 points
+7 sees 4 points
+register image 3
+add match 2 --- 3 size:478
+solvePnPRansac is 1
+after fusion structure size is 843
+add match 1 --- 3 size:132
+solvePnPRansac is 1
+after fusion structure size is 882
+0 sees 91 points
+4 sees 117 points
+5 sees 59 points
+6 sees 27 points
+7 sees 9 points
+register image 4
+add match 2 --- 4 size:81
+solvePnPRansac is 1
+after fusion structure size is 922
+add match 1 --- 4 size:28
+solvePnPRansac is 1
+after fusion structure size is 931
+add match 3 --- 4 size:151
+solvePnPRansac is 1
+after fusion structure size is 1011
+before add BA 3D size is:1011
+before solve BA
+Bundle Adjustment statistics (approximated RMSE):
+ #views: 4
+ #residuals: 4478
+ Initial RMSE: 4.70572
+ Final RMSE: 2.33749
+ Time (s): 157.945
+
+[1726.773451427156;
+ 1674.041326482533;
+ 924.2001321239303;
+ 918.5811017727696]
+delete 3D point:(-765749,-218531,2.08002e+06)
+delete 3D point:(130.654,42.9748,-305.137)
+delete 3D point:(128.669,42.0034,-304.493)
+delete 3D point:(140.193,47.1896,-332.868)
+delete 3D point:(140.193,47.1896,-332.868)
+delete 3D point:(162.884,45.2358,-404.019)
+delete 3D point:(287381,111728,-799934)
+delete 3D point:(137.921,17.3764,-217.483)
+delete 3D point:(2.48185e+06,978053,-4.99589e+06)
+correspond struct idx max is :574
+structure size is 1002
+0 sees 84 points
+5 sees 65 points
+6 sees 22 points
+7 sees 6 points
+register image 0
+add match 2 --- 0 size:40
+solvePnPRansac is 1
+after fusion structure size is 1014
+add match 1 --- 0 size:185
+solvePnPRansac is 1
+after fusion structure size is 1074
+add match 3 --- 0 size:23
+solvePnPRansac is 1
+after fusion structure size is 1083
+add match 4 --- 0 size:12
+5 sees 72 points
+6 sees 27 points
+7 sees 8 points
+register image 5
+add match 2 --- 5 size:47
+solvePnPRansac is 1
+after fusion structure size is 1096
+add match 1 --- 5 size:24
+solvePnPRansac is 1
+after fusion structure size is 1101
+add match 3 --- 5 size:62
+solvePnPRansac is 0
+add match 4 --- 5 size:529
+solvePnPRansac is 1
+after fusion structure size is 1467
+add match 0 --- 5 size:10
+before add BA 3D size is:1467
+before solve BA
+Bundle Adjustment statistics (approximated RMSE):
+ #views: 6
+ #residuals: 5044
+ Initial RMSE: 21.8384
+ Final RMSE: 8.14359
+ Time (s): 383.391
+
+[1311.356804197009;
+ 933.6041948299811;
+ 751.5374207499199;
+ 288.6210371304697]
+delete 3D point:(255034,-74824.2,246440)
+delete 3D point:(181419,-25419.8,169137)
+delete 3D point:(-293871,-306574,-469128)
+delete 3D point:(-178312,-155421,-236878)
+delete 3D point:(7.4919e+06,-3.56515e+06,7.75986e+06)
+delete 3D point:(1.10293e+07,-5.06404e+06,1.12162e+07)
+delete 3D point:(1.10293e+07,-5.06404e+06,1.12162e+07)
+delete 3D point:(1.1113e+07,-4.79783e+06,1.11821e+07)
+delete 3D point:(1.66183e+07,-216148,1.37406e+07)
+delete 3D point:(1.66183e+07,-216148,1.37406e+07)
+delete 3D point:(1.26708e+07,-270723,1.03647e+07)
+delete 3D point:(-128863,16996.3,-104285)
+delete 3D point:(-124088,20232.1,-98520.4)
+delete 3D point:(-132826,23442.5,-99257.6)
+delete 3D point:(-127075,21949.7,-94818.1)
+delete 3D point:(-185458,18406.1,-133878)
+delete 3D point:(1.05015e+06,1.03416e+06,1.92788e+06)
+delete 3D point:(1.86071e+06,1.93833e+06,3.40408e+06)
+delete 3D point:(6.38502e+06,8.7039e+06,1.19383e+07)
+delete 3D point:(382122,265911,604091)
+delete 3D point:(340969,228205,536870)
+delete 3D point:(385198,255459,604492)
+delete 3D point:(385198,255459,604492)
+delete 3D point:(316582,236864,497342)
+delete 3D point:(1.02965e+06,1.20777e+06,1.65748e+06)
+correspond struct idx max is :1010
+structure size is 1442
+6 sees 74 points
+7 sees 12 points
+register image 6
+add match 2 --- 6 size:21
+solvePnPRansac is 0
+add match 1 --- 6 size:20
+solvePnPRansac is 1
+after fusion structure size is 1446
+add match 3 --- 6 size:20
+solvePnPRansac is 1
+after fusion structure size is 1449
+add match 4 --- 6 size:112
+solvePnPRansac is 0
+add match 0 --- 6 size:9
+add match 5 --- 6 size:450
+solvePnPRansac is 0
+7 sees 13 points
+register image 7
+add match 2 --- 7 size:11
+add match 1 --- 7 size:12
+solvePnPRansac is 0
+add match 3 --- 7 size:14
+add match 4 --- 7 size:41
+add match 0 --- 7 size:7
+add match 5 --- 7 size:56
+add match 6 --- 7 size:261
+before add BA 3D size is:1449
+before solve BA
+Bundle Adjustment statistics (approximated RMSE):
+ #views: 8
+ #residuals: 3646
+ Initial RMSE: 43.0316
+ Final RMSE: 9.7168
+ Time (s): 613.676
+
+[857.7665402423627;
+ 509.7808055857712;
+ 846.3414730728381;
+ 701.1150548411082]
+delete 3D point:(-3.67988e+09,4.09141e+08,6.86614e+09)
+delete 3D point:(-116672,-5014.15,230513)
+delete 3D point:(-3.73678e+09,-6.36478e+07,7.14883e+09)
+delete 3D point:(-3.20281e+09,-8.48279e+08,6.43098e+09)
+delete 3D point:(-3.97852e+09,-7.54675e+08,8.01853e+09)
+delete 3D point:(-1.4443e+08,201284,3.11133e+08)
+delete 3D point:(-5.2057e+06,-1.22225e+06,1.09087e+07)
+delete 3D point:(-137228,7123.13,295553)
+delete 3D point:(-4.01436e+08,5.44489e+08,4.91084e+08)
+delete 3D point:(-715796,-253093,1.59152e+06)
+delete 3D point:(-98.3696,159.577,-146.189)
+delete 3D point:(-2282.44,3163.97,-3436.86)
+delete 3D point:(-1035.93,1268.61,-1259.43)
+delete 3D point:(42642.4,25112.6,45075.2)
+delete 3D point:(-15007.5,-12941.7,-13598.9)
+delete 3D point:(-10094.4,1647.16,-8841.86)
+delete 3D point:(-8021.16,1302.2,-6759.23)
+delete 3D point:(3464.88,2495.39,2836.51)
+delete 3D point:(-127.405,-89.0382,-103.858)
+delete 3D point:(-4433.44,420.596,-3610.02)
+delete 3D point:(-7332.28,460.374,-5844.25)
+delete 3D point:(14639.4,9705.02,11194.2)
+delete 3D point:(30626.3,16499.4,23014.8)
+delete 3D point:(463.965,222.894,334.697)
+delete 3D point:(1759.45,841.931,1261.89)
+delete 3D point:(101011,58859.8,71833.5)
+delete 3D point:(10860,-10231.7,7739.8)
+delete 3D point:(132784,74523,94383.6)
+delete 3D point:(132784,74523,94383.6)
+delete 3D point:(10907.3,-9891.21,7729.49)
+delete 3D point:(10842.6,-10035.3,7672.28)
+delete 3D point:(10800.8,-10046.2,7620.55)
+delete 3D point:(11273,-8734.29,7877.71)
+delete 3D point:(10730.5,-9896.16,7487.89)
+delete 3D point:(10627.9,-10035.1,7368.41)
+delete 3D point:(-6012.42,-27950.7,26297.8)
+delete 3D point:(-4410.16,-21737.3,20673.9)
+delete 3D point:(-3264.53,-322441,342630)
+delete 3D point:(2.25248e+08,-7.33789e+09,7.7924e+09)
+delete 3D point:(1.20153e+08,-4.98175e+09,5.38328e+09)
+delete 3D point:(2.86252e+08,-5.25892e+09,5.67825e+09)
+delete 3D point:(3.01066e+08,-5.07389e+09,5.60959e+09)
+delete 3D point:(3.25656e+08,-3.63966e+09,4.07331e+09)
+delete 3D point:(3.25701e+08,-3.64132e+09,4.07444e+09)
+delete 3D point:(2.42087e+08,-7.88152e+09,8.70246e+09)
+delete 3D point:(2.89578e+08,-3.31781e+09,3.72445e+09)
+delete 3D point:(4.47308e+08,-4.98799e+09,5.68112e+09)
+delete 3D point:(8252.49,-10525.9,11391.1)
+delete 3D point:(8928.61,-11003.1,11937.9)
+delete 3D point:(69603.6,-88218.8,91474.6)
+delete 3D point:(-107548,118962,-132723)
+delete 3D point:(8987.65,-10124.2,11079.4)
+delete 3D point:(241848,-321080,191195)
+delete 3D point:(241839,-311331,187321)
+delete 3D point:(16132,-8614.88,10155)
+delete 3D point:(16328,-8719.1,10278)
+delete 3D point:(17899.7,-9410.86,11075.9)
+delete 3D point:(143200,-95097.1,86351.2)
+delete 3D point:(153759,-106901,90259.8)
+delete 3D point:(-1138.94,773.225,-619.367)
+delete 3D point:(-1192.57,802.46,-647.593)
+delete 3D point:(2711.52,-1497.3,1426.69)
+delete 3D point:(-2.48719e+09,-5.51832e+08,5.28763e+09)
+delete 3D point:(7.55299e+08,1.59182e+09,-1.59953e+09)
+delete 3D point:(4.06348e+06,-2.55528e+06,626058)
+delete 3D point:(4.09223e+06,-2.57336e+06,630488)
+delete 3D point:(2.65549e+09,1.41367e+09,3.49674e+09)
+delete 3D point:(1.08526e+06,728270,1.28983e+06)
+delete 3D point:(1.10163e+06,712995,1.26593e+06)
+correspond struct idx max is :610
+structure size is 1380
+请按任意键继续. . .

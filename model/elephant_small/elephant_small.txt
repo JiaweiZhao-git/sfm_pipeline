@@ -1,0 +1,1172 @@
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\elephant_small\DSC07775.JPG :11484
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\elephant_small\DSC07777.JPG :11841
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\elephant_small\DSC07779.JPG :10222
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\elephant_small\DSC07781.JPG :10418
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\elephant_small\DSC07783.JPG :12832
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\elephant_small\DSC07785.JPG :11744
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\elephant_small\DSC07787.JPG :7471
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\elephant_small\DSC07789.JPG :14672
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\elephant_small\DSC07791.JPG :13697
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\elephant_small\DSC07793.JPG :14128
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\elephant_small\DSC07795.JPG :12312
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\elephant_small\DSC07797.JPG :12779
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\elephant_small\DSC07799.JPG :10723
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\elephant_small\DSC07801.JPG :12174
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\elephant_small\DSC07803.JPG :11551
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\elephant_small\DSC07805.JPG :6913
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\elephant_small\DSC07807.JPG :9625
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\elephant_small\DSC07809.JPG :3075
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\elephant_small\DSC07811.JPG :10347
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\elephant_small\DSC07813.JPG :10686
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\elephant_small\DSC07815.JPG :10802
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\elephant_small\DSC07817.JPG :11013
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\elephant_small\DSC07819.JPG :11661
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\elephant_small\DSC07821.JPG :11929
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\elephant_small\DSC07823.JPG :11868
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\elephant_small\DSC07825.JPG :12887
+img0---img1 :667
+img1---img0 :688
+img0---img2 :116
+img2---img0 :118
+img0---img3 :44
+img3---img0 :45
+img0---img4 :10
+img4---img0 :0
+img0---img5 :18
+img5---img0 :17
+img0---img6 :7
+img6---img0 :0
+img0---img7 :0
+img7---img0 :8
+img0---img8 :7
+img8---img0 :12
+img0---img9 :10
+img9---img0 :8
+img0---img10 :178
+img10---img0 :183
+img0---img11 :450
+img11---img0 :428
+img0---img12 :110
+img12---img0 :131
+img0---img13 :354
+img13---img0 :368
+img0---img14 :210
+img14---img0 :189
+img0---img15 :25
+img15---img0 :14
+img0---img16 :7
+img16---img0 :0
+img0---img17 :0
+img17---img0 :0
+img0---img18 :8
+img18---img0 :8
+img0---img19 :9
+img19---img0 :10
+img0---img20 :21
+img20---img0 :17
+img0---img21 :33
+img21---img0 :31
+img0---img22 :40
+img22---img0 :42
+img0---img23 :58
+img23---img0 :64
+img0---img24 :175
+img24---img0 :182
+img0---img25 :1747
+img25---img0 :1838
+img1---img2 :1348
+img2---img1 :1333
+img1---img3 :157
+img3---img1 :171
+img1---img4 :24
+img4---img1 :26
+img1---img5 :30
+img5---img1 :34
+img1---img6 :7
+img6---img1 :0
+img1---img7 :7
+img7---img1 :9
+img1---img8 :7
+img8---img1 :8
+img1---img9 :8
+img9---img1 :10
+img1---img10 :7
+img10---img1 :0
+img1---img11 :72
+img11---img1 :79
+img1---img12 :199
+img12---img1 :193
+img1---img13 :162
+img13---img1 :194
+img1---img14 :204
+img14---img1 :189
+img1---img15 :119
+img15---img1 :96
+img1---img16 :19
+img16---img1 :20
+img1---img17 :0
+img17---img1 :0
+img1---img18 :7
+img18---img1 :11
+img1---img19 :7
+img19---img1 :9
+img1---img20 :9
+img20---img1 :9
+img1---img21 :19
+img21---img1 :21
+img1---img22 :11
+img22---img1 :13
+img1---img23 :25
+img23---img1 :24
+img1---img24 :33
+img24---img1 :35
+img1---img25 :116
+img25---img1 :107
+img2---img3 :952
+img3---img2 :947
+img2---img4 :63
+img4---img2 :53
+img2---img5 :51
+img5---img2 :57
+img2---img6 :10
+img6---img2 :7
+img2---img7 :7
+img7---img2 :11
+img2---img8 :11
+img8---img2 :10
+img2---img9 :11
+img9---img2 :11
+img2---img10 :11
+img10---img2 :10
+img2---img11 :7
+img11---img2 :13
+img2---img12 :20
+img12---img2 :26
+img2---img13 :110
+img13---img2 :120
+img2---img14 :99
+img14---img2 :108
+img2---img15 :140
+img15---img2 :122
+img2---img16 :224
+img16---img2 :215
+img2---img17 :0
+img17---img2 :0
+img2---img18 :7
+img18---img2 :10
+img2---img19 :7
+img19---img2 :11
+img2---img20 :7
+img20---img2 :8
+img2---img21 :7
+img21---img2 :7
+img2---img22 :0
+img22---img2 :7
+img2---img23 :15
+img23---img2 :15
+img2---img24 :20
+img24---img2 :21
+img2---img25 :43
+img25---img2 :39
+img3---img4 :596
+img4---img3 :574
+img3---img5 :216
+img5---img3 :227
+img3---img6 :11
+img6---img3 :7
+img3---img7 :20
+img7---img3 :23
+img3---img8 :15
+img8---img3 :16
+img3---img9 :8
+img9---img3 :13
+img3---img10 :0
+img10---img3 :9
+img3---img11 :7
+img11---img3 :9
+img3---img12 :0
+img12---img3 :0
+img3---img13 :11
+img13---img3 :9
+img3---img14 :74
+img14---img3 :74
+img3---img15 :75
+img15---img3 :76
+img3---img16 :230
+img16---img3 :251
+img3---img17 :33
+img17---img3 :21
+img3---img18 :36
+img18---img3 :39
+img3---img19 :8
+img19---img3 :10
+img3---img20 :9
+img20---img3 :11
+img3---img21 :0
+img21---img3 :8
+img3---img22 :7
+img22---img3 :7
+img3---img23 :8
+img23---img3 :12
+img3---img24 :14
+img24---img3 :12
+img3---img25 :15
+img25---img3 :16
+img4---img5 :1014
+img5---img4 :1031
+img4---img6 :43
+img6---img4 :31
+img4---img7 :45
+img7---img4 :48
+img4---img8 :21
+img8---img4 :22
+img4---img9 :12
+img9---img4 :13
+img4---img10 :10
+img10---img4 :10
+img4---img11 :8
+img11---img4 :11
+img4---img12 :7
+img12---img4 :8
+img4---img13 :7
+img13---img4 :9
+img4---img14 :7
+img14---img4 :7
+img4---img15 :18
+img15---img4 :22
+img4---img16 :85
+img16---img4 :87
+img4---img17 :48
+img17---img4 :37
+img4---img18 :172
+img18---img4 :153
+img4---img19 :16
+img19---img4 :14
+img4---img20 :10
+img20---img4 :11
+img4---img21 :8
+img21---img4 :8
+img4---img22 :7
+img22---img4 :9
+img4---img23 :0
+img23---img4 :8
+img4---img24 :0
+img24---img4 :10
+img4---img25 :9
+img25---img4 :9
+img5---img6 :361
+img6---img5 :324
+img5---img7 :140
+img7---img5 :159
+img5---img8 :98
+img8---img5 :91
+img5---img9 :47
+img9---img5 :36
+img5---img10 :15
+img10---img5 :15
+img5---img11 :8
+img11---img5 :10
+img5---img12 :0
+img12---img5 :0
+img5---img13 :7
+img13---img5 :10
+img5---img14 :0
+img14---img5 :0
+img5---img15 :8
+img15---img5 :0
+img5---img16 :48
+img16---img5 :62
+img5---img17 :21
+img17---img5 :20
+img5---img18 :126
+img18---img5 :122
+img5---img19 :57
+img19---img5 :58
+img5---img20 :47
+img20---img5 :49
+img5---img21 :25
+img21---img5 :19
+img5---img22 :14
+img22---img5 :16
+img5---img23 :10
+img23---img5 :11
+img5---img24 :0
+img24---img5 :9
+img5---img25 :14
+img25---img5 :15
+img6---img7 :369
+img7---img6 :456
+img6---img8 :23
+img8---img6 :33
+img6---img9 :13
+img9---img6 :18
+img6---img10 :8
+img10---img6 :12
+img6---img11 :0
+img11---img6 :12
+img6---img12 :7
+img12---img6 :8
+img6---img13 :7
+img13---img6 :13
+img6---img14 :0
+img14---img6 :7
+img6---img15 :0
+img15---img6 :0
+img6---img16 :130
+img16---img6 :141
+img6---img17 :41
+img17---img6 :36
+img6---img18 :36
+img18---img6 :41
+img6---img19 :23
+img19---img6 :33
+img6---img20 :46
+img20---img6 :44
+img6---img21 :40
+img21---img6 :44
+img6---img22 :13
+img22---img6 :14
+img6---img23 :0
+img23---img6 :11
+img6---img24 :0
+img24---img6 :12
+img6---img25 :0
+img25---img6 :8
+img7---img8 :1071
+img8---img7 :1067
+img7---img9 :201
+img9---img7 :206
+img7---img10 :62
+img10---img7 :59
+img7---img11 :31
+img11---img7 :36
+img7---img12 :12
+img12---img7 :13
+img7---img13 :23
+img13---img7 :19
+img7---img14 :0
+img14---img7 :0
+img7---img15 :7
+img15---img7 :0
+img7---img16 :11
+img16---img7 :11
+img7---img17 :12
+img17---img7 :14
+img7---img18 :219
+img18---img7 :232
+img7---img19 :251
+img19---img7 :217
+img7---img20 :84
+img20---img7 :79
+img7---img21 :149
+img21---img7 :124
+img7---img22 :137
+img22---img7 :121
+img7---img23 :45
+img23---img7 :41
+img7---img24 :12
+img24---img7 :7
+img7---img25 :15
+img25---img7 :15
+img8---img9 :1243
+img9---img8 :1392
+img8---img10 :219
+img10---img8 :227
+img8---img11 :67
+img11---img8 :69
+img8---img12 :21
+img12---img8 :18
+img8---img13 :17
+img13---img8 :15
+img8---img14 :7
+img14---img8 :0
+img8---img15 :0
+img15---img8 :0
+img8---img16 :0
+img16---img8 :0
+img8---img17 :0
+img17---img8 :0
+img8---img18 :41
+img18---img8 :54
+img8---img19 :201
+img19---img8 :196
+img8---img20 :287
+img20---img8 :283
+img8---img21 :103
+img21---img8 :101
+img8---img22 :175
+img22---img8 :143
+img8---img23 :183
+img23---img8 :173
+img8---img24 :77
+img24---img8 :68
+img8---img25 :20
+img25---img8 :18
+img9---img10 :1441
+img10---img9 :1328
+img9---img11 :219
+img11---img9 :201
+img9---img12 :35
+img12---img9 :33
+img9---img13 :15
+img13---img9 :17
+img9---img14 :8
+img14---img9 :8
+img9---img15 :9
+img15---img9 :0
+img9---img16 :0
+img16---img9 :0
+img9---img17 :8
+img17---img9 :0
+img9---img18 :17
+img18---img9 :14
+img9---img19 :57
+img19---img9 :70
+img9---img20 :279
+img20---img9 :251
+img9---img21 :295
+img21---img9 :286
+img9---img22 :170
+img22---img9 :152
+img9---img23 :164
+img23---img9 :157
+img9---img24 :217
+img24---img9 :225
+img9---img25 :52
+img25---img9 :54
+img10---img11 :1823
+img11---img10 :1953
+img10---img12 :81
+img12---img10 :79
+img10---img13 :16
+img13---img10 :16
+img10---img14 :7
+img14---img10 :0
+img10---img15 :12
+img15---img10 :0
+img10---img16 :7
+img16---img10 :8
+img10---img17 :7
+img17---img10 :0
+img10---img18 :7
+img18---img10 :11
+img10---img19 :12
+img19---img10 :14
+img10---img20 :88
+img20---img10 :91
+img10---img21 :159
+img21---img10 :158
+img10---img22 :412
+img22---img10 :427
+img10---img23 :237
+img23---img10 :233
+img10---img24 :151
+img24---img10 :157
+img10---img25 :295
+img25---img10 :314
+img11---img12 :535
+img12---img11 :487
+img11---img13 :34
+img13---img11 :42
+img11---img14 :9
+img14---img11 :7
+img11---img15 :9
+img15---img11 :0
+img11---img16 :10
+img16---img11 :8
+img11---img17 :8
+img17---img11 :0
+img11---img18 :8
+img18---img11 :9
+img11---img19 :9
+img19---img11 :7
+img11---img20 :27
+img20---img11 :27
+img11---img21 :104
+img21---img11 :105
+img11---img22 :113
+img22---img11 :124
+img11---img23 :391
+img23---img11 :390
+img11---img24 :183
+img24---img11 :151
+img11---img25 :210
+img25---img11 :232
+img12---img13 :229
+img13---img12 :286
+img12---img14 :10
+img14---img12 :10
+img12---img15 :7
+img15---img12 :0
+img12---img16 :0
+img16---img12 :7
+img12---img17 :0
+img17---img12 :0
+img12---img18 :0
+img18---img12 :7
+img12---img19 :0
+img19---img12 :11
+img12---img20 :7
+img20---img12 :9
+img12---img21 :16
+img21---img12 :20
+img12---img22 :51
+img22---img12 :51
+img12---img23 :124
+img23---img12 :111
+img12---img24 :331
+img24---img12 :339
+img12---img25 :181
+img25---img12 :178
+img13---img14 :158
+img14---img13 :148
+img13---img15 :19
+img15---img13 :14
+img13---img16 :12
+img16---img13 :11
+img13---img17 :0
+img17---img13 :0
+img13---img18 :13
+img18---img13 :11
+img13---img19 :11
+img19---img13 :10
+img13---img20 :10
+img20---img13 :9
+img13---img21 :13
+img21---img13 :13
+img13---img22 :27
+img22---img13 :26
+img13---img23 :23
+img23---img13 :23
+img13---img24 :182
+img24---img13 :187
+img13---img25 :432
+img25---img13 :441
+img14---img15 :101
+img15---img14 :114
+img14---img16 :13
+img16---img14 :14
+img14---img17 :7
+img17---img14 :0
+img14---img18 :7
+img18---img14 :10
+img14---img19 :9
+img19---img14 :13
+img14---img20 :8
+img20---img14 :11
+img14---img21 :12
+img21---img14 :9
+img14---img22 :8
+img22---img14 :7
+img14---img23 :0
+img23---img14 :8
+img14---img24 :11
+img24---img14 :15
+img14---img25 :36
+img25---img14 :49
+img15---img16 :119
+img16---img15 :143
+img15---img17 :0
+img17---img15 :0
+img15---img18 :13
+img18---img15 :18
+img15---img19 :10
+img19---img15 :13
+img15---img20 :0
+img20---img15 :8
+img15---img21 :0
+img21---img15 :11
+img15---img22 :0
+img22---img15 :0
+img15---img23 :0
+img23---img15 :9
+img15---img24 :0
+img24---img15 :7
+img15---img25 :0
+img25---img15 :11
+img16---img17 :53
+img17---img16 :41
+img16---img18 :81
+img18---img16 :81
+img16---img19 :35
+img19---img16 :35
+img16---img20 :0
+img20---img16 :9
+img16---img21 :7
+img21---img16 :10
+img16---img22 :7
+img22---img16 :8
+img16---img23 :0
+img23---img16 :8
+img16---img24 :0
+img24---img16 :7
+img16---img25 :0
+img25---img16 :7
+img17---img18 :266
+img18---img17 :318
+img17---img19 :25
+img19---img17 :37
+img17---img20 :0
+img20---img17 :10
+img17---img21 :0
+img21---img17 :10
+img17---img22 :0
+img22---img17 :10
+img17---img23 :0
+img23---img17 :7
+img17---img24 :0
+img24---img17 :7
+img17---img25 :0
+img25---img17 :7
+img18---img19 :1174
+img19---img18 :1177
+img18---img20 :173
+img20---img18 :167
+img18---img21 :35
+img21---img18 :32
+img18---img22 :25
+img22---img18 :28
+img18---img23 :10
+img23---img18 :10
+img18---img24 :7
+img24---img18 :11
+img18---img25 :9
+img25---img18 :7
+img19---img20 :1060
+img20---img19 :1084
+img19---img21 :119
+img21---img19 :109
+img19---img22 :31
+img22---img19 :34
+img19---img23 :24
+img23---img19 :25
+img19---img24 :12
+img24---img19 :12
+img19---img25 :9
+img25---img19 :10
+img20---img21 :808
+img21---img20 :771
+img20---img22 :126
+img22---img20 :132
+img20---img23 :44
+img23---img20 :46
+img20---img24 :23
+img24---img20 :24
+img20---img25 :21
+img25---img20 :19
+img21---img22 :1142
+img22---img21 :1169
+img21---img23 :134
+img23---img21 :131
+img21---img24 :40
+img24---img21 :45
+img21---img25 :43
+img25---img21 :39
+img22---img23 :1255
+img23---img22 :1257
+img22---img24 :158
+img24---img22 :151
+img22---img25 :57
+img25---img22 :50
+img23---img24 :1164
+img24---img23 :1259
+img23---img25 :123
+img25---img23 :134
+img24---img25 :1210
+img25---img24 :1251
+max match is :11---10:1953
+0 sees 175 points
+1 sees 24 points
+2 sees 5 points
+3 sees 1 points
+4 sees 2 points
+5 sees 7 points
+6 sees 2 points
+7 sees 49 points
+8 sees 138 points
+9 sees 660 points
+12 sees 269 points
+13 sees 29 points
+14 sees 1 points
+15 sees 0 points
+16 sees 5 points
+17 sees 0 points
+18 sees 0 points
+19 sees 3 points
+20 sees 19 points
+21 sees 46 points
+22 sees 125 points
+23 sees 223 points
+24 sees 101 points
+25 sees 152 points
+register image 9
+add match 10 --- 9 size:1328
+solvePnPRansac is 1
+after fusion structure size is 2742
+0 sees 183 points
+1 sees 24 points
+2 sees 6 points
+3 sees 3 points
+4 sees 6 points
+5 sees 32 points
+6 sees 13 points
+7 sees 166 points
+8 sees 603 points
+12 sees 307 points
+13 sees 43 points
+14 sees 1 points
+15 sees 0 points
+16 sees 6 points
+17 sees 0 points
+18 sees 3 points
+19 sees 15 points
+20 sees 59 points
+21 sees 96 points
+22 sees 193 points
+23 sees 243 points
+24 sees 120 points
+25 sees 169 points
+register image 8
+add match 9 --- 8 size:1392
+solvePnPRansac is 1
+after fusion structure size is 3727
+before add BA 3D size is:3727
+[4905.9829059829;
+ 4905.9829059829;
+ 1148;
+ 764]
+correspond struct idx max is :3726
+structure size is 3727
+0 sees 187 points
+1 sees 26 points
+2 sees 12 points
+3 sees 11 points
+4 sees 22 points
+5 sees 95 points
+6 sees 26 points
+7 sees 564 points
+12 sees 318 points
+13 sees 49 points
+14 sees 1 points
+15 sees 0 points
+16 sees 6 points
+17 sees 0 points
+18 sees 10 points
+19 sees 60 points
+20 sees 130 points
+21 sees 146 points
+22 sees 254 points
+23 sees 312 points
+24 sees 173 points
+25 sees 176 points
+register image 7
+add match 8 --- 7 size:1067
+solvePnPRansac is 1
+after fusion structure size is 4447
+0 sees 187 points
+1 sees 26 points
+2 sees 17 points
+3 sees 21 points
+4 sees 46 points
+5 sees 163 points
+6 sees 158 points
+12 sees 326 points
+13 sees 55 points
+14 sees 1 points
+15 sees 0 points
+16 sees 6 points
+17 sees 1 points
+18 sees 31 points
+19 sees 112 points
+20 sees 177 points
+21 sees 196 points
+22 sees 318 points
+23 sees 357 points
+24 sees 186 points
+25 sees 184 points
+register image 23
+add match 11 --- 23 size:391
+solvePnPRansac is 1
+after fusion structure size is 4727
+before add BA 3D size is:4727
+[4905.9829059829;
+ 4905.9829059829;
+ 1148;
+ 764]
+correspond struct idx max is :4726
+structure size is 4727
+0 sees 187 points
+1 sees 26 points
+2 sees 17 points
+3 sees 21 points
+4 sees 46 points
+5 sees 163 points
+6 sees 158 points
+12 sees 389 points
+13 sees 56 points
+14 sees 1 points
+15 sees 0 points
+16 sees 6 points
+17 sees 1 points
+18 sees 31 points
+19 sees 112 points
+20 sees 178 points
+21 sees 200 points
+22 sees 412 points
+24 sees 318 points
+25 sees 192 points
+register image 22
+add match 23 --- 22 size:1257
+solvePnPRansac is 1
+after fusion structure size is 4727
+0 sees 187 points
+1 sees 26 points
+2 sees 17 points
+3 sees 21 points
+4 sees 46 points
+5 sees 163 points
+6 sees 158 points
+12 sees 390 points
+13 sees 56 points
+14 sees 1 points
+15 sees 0 points
+16 sees 6 points
+17 sees 1 points
+18 sees 31 points
+19 sees 112 points
+20 sees 178 points
+21 sees 212 points
+24 sees 319 points
+25 sees 192 points
+register image 12
+add match 11 --- 12 size:535
+solvePnPRansac is 1
+after fusion structure size is 5013
+before add BA 3D size is:5013
+[4905.9829059829;
+ 4905.9829059829;
+ 1148;
+ 764]
+correspond struct idx max is :5012
+structure size is 5013
+0 sees 205 points
+1 sees 38 points
+2 sees 17 points
+3 sees 21 points
+4 sees 48 points
+5 sees 163 points
+6 sees 158 points
+13 sees 134 points
+14 sees 3 points
+15 sees 0 points
+16 sees 6 points
+17 sees 1 points
+18 sees 33 points
+19 sees 117 points
+20 sees 184 points
+21 sees 227 points
+24 sees 396 points
+25 sees 234 points
+register image 24
+add match 23 --- 24 size:1164
+solvePnPRansac is 1
+after fusion structure size is 6070
+0 sees 288 points
+1 sees 65 points
+2 sees 27 points
+3 sees 26 points
+4 sees 48 points
+5 sees 166 points
+6 sees 158 points
+13 sees 185 points
+14 sees 3 points
+15 sees 0 points
+16 sees 6 points
+17 sees 1 points
+18 sees 35 points
+19 sees 130 points
+20 sees 215 points
+21 sees 290 points
+25 sees 665 points
+register image 25
+add match 24 --- 25 size:1210
+solvePnPRansac is 1
+after fusion structure size is 6923
+before add BA 3D size is:6923
+[4905.9829059829;
+ 4905.9829059829;
+ 1148;
+ 764]
+correspond struct idx max is :6922
+structure size is 6923
+0 sees 800 points
+1 sees 127 points
+2 sees 60 points
+3 sees 36 points
+4 sees 50 points
+5 sees 167 points
+6 sees 158 points
+13 sees 342 points
+14 sees 15 points
+15 sees 0 points
+16 sees 6 points
+17 sees 1 points
+18 sees 38 points
+19 sees 133 points
+20 sees 228 points
+21 sees 325 points
+register image 0
+add match 25 --- 0 size:1838
+solvePnPRansac is 1
+after fusion structure size is 7932
+1 sees 438 points
+2 sees 122 points
+3 sees 63 points
+4 sees 52 points
+5 sees 177 points
+6 sees 158 points
+13 sees 599 points
+14 sees 106 points
+15 sees 4 points
+16 sees 6 points
+17 sees 1 points
+18 sees 40 points
+19 sees 135 points
+20 sees 237 points
+21 sees 349 points
+register image 13
+add match 25 --- 13 size:441
+solvePnPRansac is 1
+after fusion structure size is 8113
+add match 0 --- 13 size:354
+solvePnPRansac is 1
+after fusion structure size is 8249
+before add BA 3D size is:8249
+[4905.9829059829;
+ 4905.9829059829;
+ 1148;
+ 764]
+correspond struct idx max is :8248
+structure size is 8249
+1 sees 458 points
+2 sees 123 points
+3 sees 63 points
+4 sees 54 points
+5 sees 177 points
+6 sees 158 points
+14 sees 185 points
+15 sees 10 points
+16 sees 7 points
+17 sees 1 points
+18 sees 40 points
+19 sees 135 points
+20 sees 237 points
+21 sees 349 points
+register image 1
+add match 0 --- 1 size:667
+solvePnPRansac is 1
+after fusion structure size is 8579
+2 sees 319 points
+3 sees 95 points
+4 sees 55 points
+5 sees 182 points
+6 sees 158 points
+14 sees 240 points
+15 sees 37 points
+16 sees 13 points
+17 sees 1 points
+18 sees 41 points
+19 sees 135 points
+20 sees 238 points
+21 sees 355 points
+register image 21
+add match 22 --- 21 size:1169
+solvePnPRansac is 1
+after fusion structure size is 8579
+before add BA 3D size is:8579
+[4905.9829059829;
+ 4905.9829059829;
+ 1148;
+ 764]
+correspond struct idx max is :8578
+structure size is 8579
+2 sees 319 points
+3 sees 95 points
+4 sees 55 points
+5 sees 182 points
+6 sees 158 points
+14 sees 240 points
+15 sees 37 points
+16 sees 13 points
+17 sees 1 points
+18 sees 41 points
+19 sees 135 points
+20 sees 241 points
+register image 2
+add match 1 --- 2 size:1348
+solvePnPRansac is 1
+after fusion structure size is 9747
+3 sees 524 points
+4 sees 90 points
+5 sees 224 points
+6 sees 158 points
+14 sees 298 points
+15 sees 119 points
+16 sees 83 points
+17 sees 1 points
+18 sees 45 points
+19 sees 139 points
+20 sees 243 points
+register image 3
+add match 2 --- 3 size:952
+solvePnPRansac is 1
+after fusion structure size is 10375
+before add BA 3D size is:10375
+[4905.9829059829;
+ 4905.9829059829;
+ 1148;
+ 764]
+correspond struct idx max is :10374
+structure size is 10375
+4 sees 289 points
+5 sees 319 points
+6 sees 158 points
+14 sees 311 points
+15 sees 151 points
+16 sees 205 points
+17 sees 7 points
+18 sees 63 points
+19 sees 145 points
+20 sees 245 points
+register image 5
+add match 3 --- 5 size:216
+solvePnPRansac is 1
+after fusion structure size is 10470
+4 sees 356 points
+6 sees 170 points
+14 sees 311 points
+15 sees 151 points
+16 sees 205 points
+17 sees 7 points
+18 sees 64 points
+19 sees 145 points
+20 sees 245 points
+register image 4
+add match 5 --- 4 size:1031
+solvePnPRansac is 1
+after fusion structure size is 10860
+before add BA 3D size is:10860
+[4905.9829059829;
+ 4905.9829059829;
+ 1148;
+ 764]
+correspond struct idx max is :10859
+structure size is 10860
+6 sees 219 points
+14 sees 311 points
+15 sees 151 points
+16 sees 206 points
+17 sees 9 points
+18 sees 91 points
+19 sees 145 points
+20 sees 245 points
+register image 14
+add match 0 --- 14 size:210
+solvePnPRansac is 1
+after fusion structure size is 10939
+add match 13 --- 14 size:158
+solvePnPRansac is 1
+after fusion structure size is 10939
+add match 1 --- 14 size:204
+solvePnPRansac is 1
+after fusion structure size is 11028
+6 sees 219 points
+15 sees 201 points
+16 sees 213 points
+17 sees 9 points
+18 sees 91 points
+19 sees 145 points
+20 sees 245 points
+register image 20
+add match 21 --- 20 size:771
+before add BA 3D size is:11028
+[4905.9829059829;
+ 4905.9829059829;
+ 1148;
+ 764]
+correspond struct idx max is :11027
+structure size is 11028
+6 sees 219 points
+15 sees 201 points
+16 sees 213 points
+17 sees 9 points
+18 sees 91 points
+19 sees 145 points
+register image 6
+add match 7 --- 6 size:456
+solvePnPRansac is 1
+after fusion structure size is 11341
+add match 5 --- 6 size:361
+solvePnPRansac is 1
+after fusion structure size is 11548
+15 sees 201 points
+16 sees 231 points
+17 sees 26 points
+18 sees 105 points
+19 sees 166 points
+register image 16
+add match 2 --- 16 size:224
+solvePnPRansac is 1
+after fusion structure size is 11661
+add match 3 --- 16 size:230
+solvePnPRansac is 1
+after fusion structure size is 11813
+before add BA 3D size is:11813
+[4905.9829059829;
+ 4905.9829059829;
+ 1148;
+ 764]
+correspond struct idx max is :11812
+structure size is 11813
+15 sees 246 points
+17 sees 40 points
+18 sees 114 points
+19 sees 168 points
+register image 15
+add match 1 --- 15 size:119
+solvePnPRansac is 1
+after fusion structure size is 11845
+add match 2 --- 15 size:140
+solvePnPRansac is 1
+after fusion structure size is 11898
+add match 16 --- 15 size:143
+solvePnPRansac is 1
+after fusion structure size is 12005
+17 sees 44 points
+18 sees 116 points
+19 sees 169 points
+register image 19
+add match 20 --- 19 size:1084
+before add BA 3D size is:12005
+[4905.9829059829;
+ 4905.9829059829;
+ 1148;
+ 764]
+correspond struct idx max is :12004
+structure size is 12005
+17 sees 44 points
+18 sees 116 points
+register image 18
+add match 19 --- 18 size:1177
+17 sees 44 points
+register image 17
+add match 18 --- 17 size:318
+before add BA 3D size is:12005
+[4905.9829059829;
+ 4905.9829059829;
+ 1148;
+ 764]
+correspond struct idx max is :12004
+structure size is 12005
+after remove error points size :12005
+请按任意键继续. . .

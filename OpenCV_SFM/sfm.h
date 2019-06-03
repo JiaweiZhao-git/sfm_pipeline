@@ -130,13 +130,20 @@ void match_features(vector<Mat>& descriptor_for_all,
 	vector<vector<DMatch>>& matches_for_all,
 	vector<vector<int>>& img_add_order);
 
+void match_features(vector<Mat>& descriptor_for_all,
+	vector<vector<KeyPoint>> keyPoints_for_all,
+	vector<DMatch> match_table[100][100],
+	int &init_idx1,
+	int &init_idx2);
+
 //多目重建：初始重建第一对照片
 void init_structure(
 	Mat K,
 	vector<vector<KeyPoint>>& key_points_for_all,
 	vector<vector<Vec3b>>& colors_for_all,
-	vector<vector<DMatch>>& matches_for_all,
-	vector<vector<int>>& img_add_order,
+	vector<DMatch> & matches_init,
+	int &init_idx1,
+	int &init_idx2,
 	vector<Point3d>& structure,
 	vector<vector<int>>& correspond_struct_idx,
 	vector<Vec3b>& colors,
@@ -196,6 +203,8 @@ void test();
 
 string get_filename_from_path(string path);
 
-void remove_error_points(vector<Point3d>& structure);
+void remove_error_points(vector<Point3d>& structure, vector<vector<int>>& correspond_struct_idx);
+
+vector<Point3d> clear_error_points(vector<Point3d> structure);
 
 Mat rorate90(Mat src);

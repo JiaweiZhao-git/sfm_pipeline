@@ -1,0 +1,283 @@
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\cathedral\100_7100.JPG :34482
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\cathedral\100_7101.JPG :27469
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\cathedral\100_7102.JPG :27771
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\cathedral\100_7103.JPG :21722
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\cathedral\100_7104.JPG :22194
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\cathedral\100_7105.JPG :21288
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\cathedral\100_7106.JPG :21768
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\cathedral\100_7107.JPG :20718
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\cathedral\100_7108.JPG :20633
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\cathedral\100_7109.JPG :19462
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\cathedral\100_7110.JPG :57148
+img0---img1 :1804
+img1---img0 :1895
+img0---img2 :649
+img2---img0 :719
+img0---img3 :390
+img3---img0 :387
+img0---img4 :241
+img4---img0 :262
+img0---img5 :147
+img5---img0 :140
+img0---img6 :77
+img6---img0 :100
+img0---img7 :87
+img7---img0 :84
+img0---img8 :69
+img8---img0 :49
+img0---img9 :17
+img9---img0 :14
+img0---img10 :35
+img10---img0 :26
+img1---img2 :2657
+img2---img1 :2512
+img1---img3 :1539
+img3---img1 :1418
+img1---img4 :917
+img4---img1 :810
+img1---img5 :372
+img5---img1 :312
+img1---img6 :236
+img6---img1 :209
+img1---img7 :205
+img7---img1 :184
+img1---img8 :111
+img8---img1 :96
+img1---img9 :28
+img9---img1 :17
+img1---img10 :47
+img10---img1 :42
+img2---img3 :2644
+img3---img2 :2590
+img2---img4 :1477
+img4---img2 :1299
+img2---img5 :679
+img5---img2 :580
+img2---img6 :419
+img6---img2 :401
+img2---img7 :255
+img7---img2 :262
+img2---img8 :162
+img8---img2 :129
+img2---img9 :31
+img9---img2 :21
+img2---img10 :61
+img10---img2 :44
+img3---img4 :1657
+img4---img3 :1821
+img3---img5 :897
+img5---img3 :828
+img3---img6 :547
+img6---img3 :533
+img3---img7 :298
+img7---img3 :319
+img3---img8 :187
+img8---img3 :167
+img3---img9 :37
+img9---img3 :23
+img3---img10 :56
+img10---img3 :42
+img4---img5 :1485
+img5---img4 :1573
+img4---img6 :984
+img6---img4 :913
+img4---img7 :515
+img7---img4 :554
+img4---img8 :335
+img8---img4 :278
+img4---img9 :36
+img9---img4 :33
+img4---img10 :62
+img10---img4 :47
+img5---img6 :1403
+img6---img5 :1517
+img5---img7 :766
+img7---img5 :881
+img5---img8 :353
+img8---img5 :389
+img5---img9 :82
+img9---img5 :62
+img5---img10 :45
+img10---img5 :32
+img6---img7 :1332
+img7---img6 :1355
+img6---img8 :607
+img8---img6 :608
+img6---img9 :141
+img9---img6 :94
+img6---img10 :59
+img10---img6 :46
+img7---img8 :1318
+img8---img7 :1309
+img7---img9 :196
+img9---img7 :155
+img7---img10 :141
+img10---img7 :129
+img8---img9 :523
+img9---img8 :398
+img8---img10 :263
+img10---img8 :298
+img9---img10 :174
+img10---img9 :230
+max match is :1---2:2657
+before init BA 3D size is:1963
+before solve BA
+Bundle Adjustment statistics (approximated RMSE):
+ #views: 2
+ #residuals: 7838
+ Initial RMSE: 0.178028
+ Final RMSE: 0.142047
+ Time (s): 259.054
+
+[3050.59791065894;
+ 3790.249798693158;
+ 1454.377523132254;
+ 1089.266631426772]
+[3050.59791065894, 0, 1454.377523132254;
+ 0, 3790.249798693158, 1089.266631426772;
+ 0, 0, 1]
+0 sees 804 points
+3 sees 1396 points
+4 sees 786 points
+5 sees 328 points
+6 sees 217 points
+7 sees 181 points
+8 sees 95 points
+9 sees 10 points
+10 sees 34 points
+register image 3
+add match 2 --- 3 size:2644
+solvePnPRansac is 1
+after fusion structure size is 3808
+0 sees 1155 points
+4 sees 2057 points
+5 sees 893 points
+6 sees 595 points
+7 sees 390 points
+8 sees 200 points
+9 sees 26 points
+10 sees 55 points
+register image 4
+add match 2 --- 4 size:1477
+solvePnPRansac is 1
+after fusion structure size is 4367
+add match 3 --- 4 size:1657
+solvePnPRansac is 1
+after fusion structure size is 5254
+before add BA 3D size is:5254
+before solve BA
+Bundle Adjustment statistics (approximated RMSE):
+ #views: 4
+ #residuals: 24608
+ Initial RMSE: 4.78827
+ Final RMSE: 0.337713
+ Time (s): 1763.07
+
+[3283.102045220032;
+ 4577.080745165035;
+ 1543.077477836734;
+ 1327.04110193168]
+correspond struct idx max is :5253
+structure size is 5254
+0 sees 1406 points
+5 sees 1917 points
+6 sees 1282 points
+7 sees 771 points
+8 sees 400 points
+9 sees 56 points
+10 sees 98 points
+register image 5
+add match 4 --- 5 size:1485
+solvePnPRansac is 1
+after fusion structure size is 5639
+0 sees 1474 points
+6 sees 1858 points
+7 sees 1101 points
+8 sees 562 points
+9 sees 78 points
+10 sees 112 points
+register image 6
+add match 5 --- 6 size:1403
+solvePnPRansac is 1
+after fusion structure size is 6573
+before add BA 3D size is:6573
+before solve BA
+Bundle Adjustment statistics (approximated RMSE):
+ #views: 6
+ #residuals: 32302
+ Initial RMSE: 18.5473
+ Final RMSE: 0.375038
+ Time (s): 3274.07
+
+[3200.971670330697;
+ 4319.748232277575;
+ 1554.897284970489;
+ 1386.436940856789]
+correspond struct idx max is :6572
+structure size is 6573
+0 sees 1518 points
+7 sees 1844 points
+8 sees 911 points
+9 sees 151 points
+10 sees 140 points
+register image 7
+add match 6 --- 7 size:1332
+solvePnPRansac is 1
+after fusion structure size is 7415
+0 sees 1552 points
+8 sees 1478 points
+9 sees 238 points
+10 sees 181 points
+register image 0
+add match 1 --- 0 size:1895
+solvePnPRansac is 1
+after fusion structure size is 7441
+before add BA 3D size is:7441
+before solve BA
+Bundle Adjustment statistics (approximated RMSE):
+ #views: 8
+ #residuals: 37792
+ Initial RMSE: 20.1858
+ Final RMSE: 0.41193
+ Time (s): 2784.39
+
+[3254.318505396102;
+ 3754.12582872017;
+ 1482.490206323965;
+ 1312.251888549742]
+correspond struct idx max is :7440
+structure size is 7441
+8 sees 1488 points
+9 sees 239 points
+10 sees 188 points
+register image 8
+add match 7 --- 8 size:1318
+solvePnPRansac is 1
+after fusion structure size is 8336
+9 sees 422 points
+10 sees 314 points
+register image 9
+add match 8 --- 9 size:523
+solvePnPRansac is 1
+after fusion structure size is 8683
+before add BA 3D size is:8683
+before solve BA
+Bundle Adjustment statistics (approximated RMSE):
+ #views: 10
+ #residuals: 43934
+ Initial RMSE: 18.3001
+ Final RMSE: 0.488064
+ Time (s): 4826.81
+
+[3213.340805082887;
+ 3529.455942778791;
+ 1534.964123710196;
+ 1250.968168560022]
+correspond struct idx max is :8682
+structure size is 8683
+10 sees 425 points
+register image 10
+add match 8 --- 10 size:263
+solvePnPRansac is 1
+after fusion structure size is 8819
+delete 3D point:(7.96242e+08,7.52921e+08,-9.26281e+09)

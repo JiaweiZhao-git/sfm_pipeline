@@ -87,10 +87,10 @@ void extract_features(
 		sift->compute(image, key_points, descriptor);
 
 		//F:\DATASET\qinghuamen\qhm-small-tnt\keypoints
-		string kp_path = "F:\\DATASET\\qinghuamen\\qhm-small-tnt\\fountain_keypoints\\";
+		/*string kp_path = "F:\\DATASET\\qinghuamen\\qhm-small-tnt\\fountain_keypoints\\";
 		Mat out;
 		drawKeypoints(image, key_points, out);
-		imwrite(kp_path + get_filename_from_path(*it), out);
+		imwrite(kp_path + get_filename_from_path(*it), out);*/
 
 		// 特征点过少，则排除该图像
 		if (key_points.size() <= 10) {
@@ -282,7 +282,7 @@ void match_features(vector<Mat>& descriptor_for_all,
 	tmp_img_pair.push_back(img2_index);
 	img_add_order.push_back(tmp_img_pair);
 
-//再决定其他照片的加入顺序：通过与已参与重建的照片能匹配最多的照片
+    //再决定其他照片的加入顺序：通过与已参与重建的照片能匹配最多的照片
 	//deque<int> construct_deque;
 	vector<int> construct_list;
 	//construct_deque.push_front(img1_index);
@@ -322,7 +322,7 @@ void match_features(vector<Mat>& descriptor_for_all,
 				max_construct_match_index = construct_index;
 				}*/
 			}
-			cout << "max other match:" << max_other_match << endl;
+			//cout << "max other match:" << max_other_match << endl;
 		}
 		
 		cout << "add image" << max_other_match_index << " to match " << max_construct_match_index << endl;
@@ -343,6 +343,57 @@ void match_features(vector<Mat>& descriptor_for_all,
 			}
 		}
 	}
+}
+
+//只有match_table
+void match_features(vector<Mat>& descriptor_for_all,
+	vector<vector<KeyPoint>> keyPoints_for_all,
+	vector<DMatch> match_table[100][100],
+	int &init_idx1,
+	int &init_idx2) {
+	//vector<vector<int>> img_add_order;
+	vector<int> tmp_img_pair;
+	
+	// n个图像，两两匹配有 n-1 对匹配
+	//先选择一对匹配值最大的照片用于init
+	int img1_index = 0, img2_index = 1, max_match_size = 10;
+	vector<DMatch> max_match;
+	int match_size_table[100][100];
+
+	for (size_t i = 0; i < descriptor_for_all.size(); i++) {
+		for (size_t j = i + 1; j < descriptor_for_all.size(); j++) {
+			cout << "img" << i << "---" << "img" << j << " :";
+			vector<DMatch> matches;
+			match_features(descriptor_for_all[i], descriptor_for_all[j], keyPoints_for_all[i], keyPoints_for_all[j], matches);
+			cout << matches.size() << endl;
+			match_size_table[i][j] = matches.size();
+			match_table[i][j] = matches;
+			if (matches.size() > max_match_size) {
+				max_match_size = matches.size();
+				max_match = matches;
+				img1_index = i;
+				img2_index = j;
+			}
+
+			cout << "img" << j << "---" << "img" << i << " :";
+			vector<DMatch> matches2;
+			match_features(descriptor_for_all[j], descriptor_for_all[i], keyPoints_for_all[j], keyPoints_for_all[i], matches2);
+			cout << matches2.size() << endl;
+			match_size_table[j][i] = matches2.size();
+			match_table[j][i] = matches2;
+			if (matches2.size() > max_match_size) {
+				max_match_size = matches2.size();
+				max_match = matches2;
+				img1_index = j;
+				img2_index = i;
+			}
+
+		}
+	}
+	cout << "max match is :" << img1_index << "---" << img2_index << ":" << max_match_size << endl;
+	init_idx1 = img1_index;
+	init_idx2 = img2_index;
+
 }
 
 //按与已参与重建的关键点匹配的数添加顺序
@@ -631,8 +682,9 @@ void init_structure(
 	Mat K,
 	vector<vector<KeyPoint>>& key_points_for_all,
 	vector<vector<Vec3b>>& colors_for_all,
-	vector<vector<DMatch>>& matches_for_all,
-	vector<vector<int>>& img_add_order,
+	vector<DMatch> & matches_init,
+	int &init_idx1,
+	int &init_idx2,
 	vector<Point3d>& structure,
 	vector<vector<int>>& correspond_struct_idx,
 	vector<Vec3b>& colors,
@@ -640,14 +692,14 @@ void init_structure(
 	vector<Mat>& motions) {
 
 	//头两幅图像的下标
-	int order_queryIdx = img_add_order[0][0], order_trainIdx = img_add_order[0][1];
+	int order_queryIdx = init_idx1, order_trainIdx = init_idx2;
 	// 计算头两幅图像之间的变换矩阵
 	vector<Point2f> p1, p2;
 	vector<Vec3b> c2;
 	Mat R, T;	// 旋转矩阵和平移向量
 	Mat mask;	// mask中大于零的点代表匹配点，等于零的点代表失配点
-	get_matched_points(key_points_for_all[order_queryIdx], key_points_for_all[order_trainIdx], matches_for_all[0], p1, p2);
-	get_matched_colors(colors_for_all[order_queryIdx], colors_for_all[order_trainIdx], matches_for_all[0], colors, c2);
+	get_matched_points(key_points_for_all[order_queryIdx], key_points_for_all[order_trainIdx], matches_init, p1, p2);
+	get_matched_colors(colors_for_all[order_queryIdx], colors_for_all[order_trainIdx], matches_init, colors, c2);
 
 	//find_transform(K, p1, p2, R, T, mask);	// 三角分解得到R， T 矩阵
 	if (!find_transform(K, p1, p2, R, T, mask)) {
@@ -682,14 +734,14 @@ void init_structure(
 
 	// 填写头两幅图像的结构索引
 	int idx = 0;
-	vector<DMatch>& matches = matches_for_all[0];
-	for (int i = 0; i < matches.size(); ++i) {
+	//vector<DMatch>& matches = matches_for_all[0];
+	for (int i = 0; i < matches_init.size(); ++i) {
 		if (mask.at<uchar>(i) == 0) {
 			continue;
 		}
 
-		correspond_struct_idx[order_queryIdx][matches[i].queryIdx] = idx;	// 如果两个点对应的idx 相等 表明它们是同一特征点 idx 就是structure中对应的空间点坐标索引
-		correspond_struct_idx[order_trainIdx][matches[i].trainIdx] = idx;
+		correspond_struct_idx[order_queryIdx][matches_init[i].queryIdx] = idx;	// 如果两个点对应的idx 相等 表明它们是同一特征点 idx 就是structure中对应的空间点坐标索引
+		correspond_struct_idx[order_trainIdx][matches_init[i].trainIdx] = idx;
 		++idx;
 	}
 }
@@ -804,9 +856,41 @@ void reconstruct(Mat& K, Mat& R1, Mat& T1, Mat& R2, Mat& T2, vector<Point2f>& p1
 	structure.reserve(s.cols);
 	for (int i = 0; i < s.cols; ++i) {
 		Mat_<float> col = s.col(i);
+
+		//test 投影点计算
+		Mat_<float> pro_point1 = proj1*col;
+		//cout << "3d point:(" << col(0) << "," << col(1) << "," << col(2) << ")"<<endl;
+		float prop_point1_x = pro_point1(0) / pro_point1(2);
+		float prop_point1_y = pro_point1(1) / pro_point1(2);
+		float error1 = sqrt((prop_point1_x - p1[i].x)*(prop_point1_x - p1[i].x) + (prop_point1_y - p1[i].y)*(prop_point1_y - p1[i].y));
+		//cout << "proj point1 :" << prop_point1_x << "," << prop_point1_y << endl;
+		//cout << "p1 point :" << p1[i].x << "," << p1[i].y ;
+		//cout << " p1 error:" << error1 << endl;
+		
+		Mat_<float> pro_point2 = proj2*col;
+		float prop_point2_x = pro_point2(0) / pro_point2(2);
+		float prop_point2_y = pro_point2(1) / pro_point2(2);
+		float error2 = sqrt((prop_point2_x - p2[i].x)*(prop_point2_x - p2[i].x) + (prop_point2_y - p2[i].y)*(prop_point2_y - p2[i].y));
+		//cout << "proj point2 :" << prop_point2_x << "," << prop_point2_y << endl;
+		//cout << "p2 point :" << p2[i].x << "," << p2[i].y ;
+		//cout << " p2 error:" << error2 << endl;
+
+		if (error1>100.0||error2>100.0) {
+			structure.push_back(Point3d(-3.0, -3.0, -3.0));
+			continue;
+		}
 		col /= col(3);	// 齐次坐标
+		//过滤外点
+		if (fabsf(col(0)) >= 100 || fabsf(col(1)) > 100 || fabsf(col(2)) > 100) {
+			structure.push_back(Point3d(-2.0, -2.0, -2.0));
+			continue;
+		}
+
 		structure.push_back(Point3d(col(0), col(1), col(2)));
+		
+		
 	}
+	
 }
 
 void get_objpoints_and_imgpoints(
@@ -853,10 +937,19 @@ void fusion_structure(
 			continue;
 		}
 
-		// 若该点在空间中未存在，将该点加入到结构中，且这对匹配点的空间索引都为新加入的点的索引
-		structure.push_back(next_structure[i]);
-		colors.push_back(next_colors[i]);
-		struct_indices[query_idx] = next_struct_indices[train_idx] = structure.size() - 1;
+		if (next_structure[i].x==-2.0&&next_structure[i].y==-2.0&&next_structure[i].z==-2.0) {
+			//cout << "detect a outlier" << endl;
+			continue;
+		} else if(next_structure[i].x == -3.0 && next_structure[i].y == -3.0 && next_structure[i].z == -3.0) {
+			//cout << "detect a big prop point" << endl;
+			continue;
+		} else {
+			// 若该点在空间中未存在，将该点加入到结构中，且这对匹配点的空间索引都为新加入的点的索引
+			structure.push_back(next_structure[i]);
+			colors.push_back(next_colors[i]);
+			struct_indices[query_idx] = next_struct_indices[train_idx] = structure.size() - 1;
+		}
+		
 	}
 }
 
@@ -1344,15 +1437,60 @@ void test() {
 }
 
 //把误差过大的点删掉，主要是偏移太大的点
-void remove_error_points(vector<Point3d>& structure) {
+void remove_error_points(vector<Point3d>& structure, vector<vector<int>>& correspond_struct_idx) {
+	vector<Point3d> s_copy(structure);
+	vector<int> mask;
+	mask.resize(structure.size(),1);//1是正常点，0是误差过大点
+	for (int i = 0; i < structure.size();i++) {
+		if (abs(structure[i].x)>=100||abs(structure[i].y)>=100||abs(structure[i].z)>=100) {
+			cout << "delete 3D point:(" << structure[i].x << "," << structure[i].y << "," << structure[i].z << ")" << endl;
+			mask[i] = 0;
+
+			for (int m = 0; m < correspond_struct_idx.size();m++) {
+				for (int n = 0; n < correspond_struct_idx[m].size();n++) {
+					if (correspond_struct_idx[m][n]==i) {
+						correspond_struct_idx[m][n] = -1;
+						//把其他更大的索引减一
+						for (int mm = 0; mm < correspond_struct_idx.size(); mm++) {
+							for (int nn = 0; nn < correspond_struct_idx[mm].size(); nn++) {
+								if (correspond_struct_idx[mm][nn]>i) {
+									correspond_struct_idx[mm][nn] -= 1;
+								}
+
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	structure.clear();
+	for (int i = 0; i < s_copy.size();i++) {
+		if (mask[i]) {
+			structure.push_back(s_copy[i]);
+		}
+	}
+
+	//for (vector<Point3d>::iterator it = structure.begin(); it != structure.end();) {
+	//	//空间坐标太大或者太小的，先设置阈值为100
+	//	if (abs(it->x)>=100||abs(it->y)>=100||abs(it->z)>=100) {
+	//		it = structure.erase(it);
+	//	} else {
+	//		++it;
+	//	}
+	//}
+}
+
+//为了保存中间过程，去掉一些太远的点，但是不保留修改
+vector<Point3d> clear_error_points(vector<Point3d> structure) {
 	for (vector<Point3d>::iterator it = structure.begin(); it != structure.end();) {
-		//空间坐标太大或者太小的，先设置阈值为100
-		if (abs(it->x)>=100||abs(it->y)>=100||abs(it->z)>=100) {
+		if (abs(it->x)>=50||abs(it->y)>=50||abs(it->z)>=50) {
 			it = structure.erase(it);
 		} else {
 			++it;
 		}
 	}
+	return structure;
 }
 
 string get_filename_from_path(string path) {

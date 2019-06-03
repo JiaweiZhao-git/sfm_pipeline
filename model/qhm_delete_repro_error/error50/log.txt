@@ -1,0 +1,1316 @@
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\qhm\0.jpg :7874
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\qhm\2.jpg :9813
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\qhm\3.jpg :10491
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\qhm\4.jpg :10704
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\qhm\5.jpg :8714
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\qhm\6.jpg :8795
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\qhm\7.jpg :10357
+Extracting features: C:\Users\15297\Desktop\OpenCV_SFM\image\qhm\8.jpg :11734
+img0---img1 :167
+img1---img0 :185
+img0---img2 :31
+img2---img0 :40
+img0---img3 :18
+img3---img0 :23
+img0---img4 :11
+img4---img0 :12
+img0---img5 :10
+img5---img0 :12
+img0---img6 :9
+img6---img0 :10
+img0---img7 :7
+img7---img0 :10
+img1---img2 :548
+img2---img1 :571
+img1---img3 :132
+img3---img1 :135
+img1---img4 :28
+img4---img1 :31
+img1---img5 :24
+img5---img1 :22
+img1---img6 :20
+img6---img1 :15
+img1---img7 :12
+img7---img1 :12
+img2---img3 :478
+img3---img2 :513
+img2---img4 :81
+img4---img2 :82
+img2---img5 :47
+img5---img2 :42
+img2---img6 :21
+img6---img2 :19
+img2---img7 :11
+img7---img2 :11
+img3---img4 :151
+img4---img3 :145
+img3---img5 :62
+img5---img3 :55
+img3---img6 :20
+img6---img3 :22
+img3---img7 :14
+img7---img3 :10
+img4---img5 :529
+img5---img4 :535
+img4---img6 :112
+img6---img4 :125
+img4---img7 :41
+img7---img4 :38
+img5---img6 :450
+img6---img5 :440
+img5---img7 :56
+img7---img5 :52
+img6---img7 :261
+img7---img6 :273
+max match is :2---1:571
+add image3 to match 2
+match size is 478
+add image0 to match 1
+match size is 185
+add image4 to match 3
+match size is 151
+add image5 to match 4
+match size is 529
+add image6 to match 5
+match size is 450
+add image7 to match 6
+match size is 261
+before init BA 3D size is:532
+before solve BA
+Bundle Adjustment statistics (approximated RMSE):
+ #views: 2
+ #residuals: 2118
+ Initial RMSE: 0.141565
+ Final RMSE: 0.103636
+ Time (s): 19.9143
+
+[1704.3693002344;
+ 1672.049272434231;
+ 1090.153296662474;
+ 727.9181810599795]
+[1704.3693002344, 0, 1090.153296662474;
+ 0, 1672.049272434231, 727.9181810599795;
+ 0, 0, 1]
+0 match 2 size 31
+0 match 1 size 167
+0 sees 78 points
+3 match 2 size 513
+3 match 1 size 135
+3 sees 255 points
+4 match 2 size 82
+4 match 1 size 31
+4 sees 42 points
+5 match 2 size 42
+5 match 1 size 22
+5 sees 31 points
+6 match 2 size 19
+6 match 1 size 15
+6 sees 16 points
+7 match 2 size 11
+7 match 1 size 12
+7 sees 4 points
+register image 3
+add match 2 --- 3 size:478
+solvePnPRansac is 1
+after fusion structure size is 843
+add match 1 --- 3 size:132
+solvePnPRansac is 1
+after fusion structure size is 882
+0 match 2 size 31
+0 match 1 size 167
+0 match 3 size 18
+0 sees 91 points
+4 match 2 size 82
+4 match 1 size 31
+4 match 3 size 145
+4 sees 117 points
+5 match 2 size 42
+5 match 1 size 22
+5 match 3 size 55
+5 sees 59 points
+6 match 2 size 19
+6 match 1 size 15
+6 match 3 size 22
+6 sees 27 points
+7 match 2 size 11
+7 match 1 size 12
+7 match 3 size 10
+7 sees 9 points
+register image 4
+add match 2 --- 4 size:81
+solvePnPRansac is 1
+after fusion structure size is 922
+add match 1 --- 4 size:28
+solvePnPRansac is 1
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+after fusion structure size is 927
+add match 3 --- 4 size:151
+solvePnPRansac is 1
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+after fusion structure size is 998
+before add BA 3D size is:998
+before solve BA
+Bundle Adjustment statistics (approximated RMSE):
+ #views: 4
+ #residuals: 4432
+ Initial RMSE: 4.25872
+ Final RMSE: 2.20709
+ Time (s): 240.41
+
+[1711.413622028388;
+ 1708.91515974248;
+ 833.6593887651582;
+ 891.5912421701422]
+0 match 2 size 31
+0 match 1 size 167
+0 match 3 size 18
+0 match 4 size 11
+0 sees 93 points
+5 match 2 size 42
+5 match 1 size 22
+5 match 3 size 55
+5 match 4 size 535
+5 sees 138 points
+6 match 2 size 19
+6 match 1 size 15
+6 match 3 size 22
+6 match 4 size 125
+6 sees 38 points
+7 match 2 size 11
+7 match 1 size 12
+7 match 3 size 10
+7 match 4 size 38
+7 sees 9 points
+register image 5
+add match 2 --- 5 size:47
+solvePnPRansac is 1
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+after fusion structure size is 998
+add match 1 --- 5 size:24
+solvePnPRansac is 1
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+after fusion structure size is 998
+add match 3 --- 5 size:62
+solvePnPRansac is 1
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+after fusion structure size is 998
+add match 4 --- 5 size:529
+solvePnPRansac is 1
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+after fusion structure size is 1038
+0 match 2 size 31
+0 match 1 size 167
+0 match 3 size 18
+0 match 4 size 11
+0 match 5 size 10
+0 sees 97 points
+6 match 2 size 19
+6 match 1 size 15
+6 match 3 size 22
+6 match 4 size 125
+6 match 5 size 440
+6 sees 69 points
+7 match 2 size 11
+7 match 1 size 12
+7 match 3 size 10
+7 match 4 size 38
+7 match 5 size 52
+7 sees 9 points
+register image 0
+add match 2 --- 0 size:40
+solvePnPRansac is 1
+detect a big prop point
+after fusion structure size is 1050
+add match 1 --- 0 size:185
+solvePnPRansac is 1
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+after fusion structure size is 1074
+add match 3 --- 0 size:23
+solvePnPRansac is 1
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+after fusion structure size is 1074
+add match 4 --- 0 size:12
+add match 5 --- 0 size:12
+before add BA 3D size is:1074
+before solve BA
+Bundle Adjustment statistics (approximated RMSE):
+ #views: 6
+ #residuals: 5102
+ Initial RMSE: 27.293
+ Final RMSE: 5.00371
+ Time (s): 488.851
+
+[1670.967251233984;
+ 1564.75560647368;
+ 1211.704759637301;
+ 822.3949081654534]
+6 match 2 size 19
+6 match 1 size 15
+6 match 3 size 22
+6 match 4 size 125
+6 match 5 size 440
+6 match 0 size 10
+6 sees 74 points
+7 match 2 size 11
+7 match 1 size 12
+7 match 3 size 10
+7 match 4 size 38
+7 match 5 size 52
+7 match 0 size 10
+7 sees 11 points
+register image 6
+add match 2 --- 6 size:21
+solvePnPRansac is 1
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+after fusion structure size is 1075
+add match 1 --- 6 size:20
+solvePnPRansac is 0
+add match 3 --- 6 size:20
+solvePnPRansac is 1
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+after fusion structure size is 1075
+add match 4 --- 6 size:112
+solvePnPRansac is 1
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+after fusion structure size is 1155
+add match 5 --- 6 size:450
+solvePnPRansac is 1
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+after fusion structure size is 1303
+add match 0 --- 6 size:9
+7 match 2 size 11
+7 match 1 size 12
+7 match 3 size 10
+7 match 4 size 38
+7 match 5 size 52
+7 match 0 size 10
+7 match 6 size 273
+7 sees 73 points
+register image 7
+add match 2 --- 7 size:11
+solvePnPRansac is 0
+add match 1 --- 7 size:12
+solvePnPRansac is 0
+add match 3 --- 7 size:14
+solvePnPRansac is 1
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+after fusion structure size is 1305
+add match 4 --- 7 size:41
+solvePnPRansac is 1
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+after fusion structure size is 1315
+add match 5 --- 7 size:56
+solvePnPRansac is 1
+after fusion structure size is 1358
+add match 0 --- 7 size:7
+add match 6 --- 7 size:261
+solvePnPRansac is 1
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+detect a big prop point
+after fusion structure size is 1498
+before add BA 3D size is:1498
+before solve BA
+Bundle Adjustment statistics (approximated RMSE):
+ #views: 8
+ #residuals: 6878
+ Initial RMSE: 34.7398
+ Final RMSE: 4.95916
+ Time (s): 1387.14
+
+[1010.507223723156;
+ 922.3325254544536;
+ 1679.772569840342;
+ 818.8076099253299]
+after remove error points size :1418
+请按任意键继续. . .
